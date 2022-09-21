@@ -1,0 +1,215 @@
+/* @import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+/* Обнулення */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a {
+	color: inherit;
+}
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+body {
+	line-height: 1;
+}
+
+/* Шрифт */
+/* @font-face {
+	font-family: "";
+	src: url("../fonts/") format("woff2"), url("../fonts/") format("woff");
+	font-display: ;
+	font-weight: ;
+	font-style: ;
+	}
+  */
+
+/* -- */
+
+body{
+	font-family: 'Lato', sans-serif;
+background-color: rgb(205, 197, 197);
+}
+
+
+main{
+	background-color: rgb(166, 170, 85);
+	max-width: 870px;
+	padding: 38px 0 60px 0;
+	margin: 0 auto;
+}
+
+.title {
+	max-width: 810px;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 160%;
+	padding: 15px;
+	margin: 0 0 40px 0;
+}
+
+.image{
+	padding: 15px;
+	margin: 0 0 60px 0;
+}
+
+.image img {
+	max-width: 100%;
+border-radius: 20px;
+opacity: 0.6;
+}
+
+
+.subtitle:hover {
+	max-width: 820px;
+	background-color: aqua;
+	border-radius: 20px;
+	padding: 20px;
+	box-shadow: 0 5px red inset;
+	transition: all 0.5s ease 0s;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.6;
+	margin: 0 15px 24px 15px;
+	
+}
+
+.subtitle{
+	max-width: 810px;
+	font-weight: 700;
+	font-size: 20px;
+	padding: 15px;
+	margin: 0 15px 24px 15px;
+	line-height: 1.6;
+	border-bottom: 6px double green;
+}
+.top {
+	background: red;
+	max-width: 810px;
+	height: 100px;
+	line-height: 1.6;
+	letter-spacing: 0.6px;
+	overflow: auto;
+	outline: 3px double rebeccapurple;
+	padding: 15px;
+	margin: 0 15px 48px 15px;
+}
+.top p{
+	background: rgb(22, 156, 194);
+	border-radius: 30px;
+	padding: 15px;
+}
+
+
+
+.center {
+	/*!  Специально так оставил) width: 752px;  */
+	width: 752px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	border-top: 3px solid red;
+	border-right: 4px dotted blue;
+	border-bottom: 6px double green;
+	border-left: 8px dashed yellow;
+	padding: 15px;
+	margin: 0 0 48px 15px;
+}
+
+.text{
+	max-width: 810px;
+	height: 155px;
+	line-height: 1.6;
+	overflow: hidden;
+	padding: 15px;
+	margin: 0 0 24px 15px;
+}
+.text ul{
+padding: 24px 0 0 0;
+}
+
+.list li{
+	max-width: 568px;
+	background-color: burlywood;
+	display: inline;
+}
+li.one{
+	display: none;
+}
+li.two{
+	display: inline-block;
+}
+li.three{
+	visibility: hidden;
+}
+li.four{
+	display: block;
+}
+
+.bottom{
+	max-width: 810px;
+	background-color: blueviolet;
+	padding: 15px;
+	color: #fff;
+	border-radius: 20px;
+	box-shadow: 0 10px 0 #000;
+	transition: all 0.5s ease 0s;
+	margin: 0px 15px 40px 15px;
+}
+.bottom:hover{
+	padding: 15px;
+	max-width: 810px;
+	box-shadow: 0 1px 0 #000;
+}
+
+
+.bottom span{
+	background-color: blue;
+	border-radius: 15px;
+	line-height: 1.6;
+	display: inline-block;
+}
+
+span{
+	max-width: 810px;
+	display: inline-block;
+	padding: 15px;
+	margin: 0 15px 0 15px;
+	border-radius: 20px 20px;
+	background-color: rgb(156, 104, 104);
+}
